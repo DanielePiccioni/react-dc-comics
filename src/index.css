@@ -7,3 +7,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.sfondomain {
+  background-color: #1c1c1c;
+}
+
+.spostamento-destro {
+  padding-left: 17%;
+}
