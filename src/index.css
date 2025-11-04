@@ -15,3 +15,8 @@ body {
 .spostamento-destro {
   padding-left: 17%;
 }
+
+.bar-icon {
+  width: 50px;
+  height: auto;
+}
