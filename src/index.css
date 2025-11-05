@@ -34,3 +34,89 @@ body {
   max-width: 600px;
   transform: translateY(-25%);
 }
+
+.jumbotron {
+  position: relative;
+  background-image: url("../public/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.jumbotron-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.jumbotron-title {
+  position: absolute;
+  bottom: -10px;
+  left: 20%;
+  transform: translateY(50%);
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.sfondocontainer {
+  width: 100vw;
+  background-color: #1c1c1c;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+
+.col {
+  flex: 0 0 16.66%;
+  max-width: 16.66%;
+  text-align: center;
+  padding: 10px;
+}
+
+.comic-card {
+  cursor: pointer;
+}
+
+.comic-thumb {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.comic-series {
+  text-transform: uppercase;
+  color: white;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.load-more {
+  background-color: #0282f9;
+  color: white;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
